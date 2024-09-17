@@ -15,7 +15,7 @@ pub fn get_metadata() -> FnResult<Prost<Metadata>> {
 #[plugin_fn]
 pub fn install() -> FnResult<()> {
     let stmt = PreparedStatement {
-        sql: "CREAET TABLE IF NOT EXISTS people (name TEXT, age INTEGER)".into(),
+        sql: "CREATE TABLE IF NOT EXISTS people (name TEXT, age INTEGER)".into(),
         ..Default::default()
     };
     Hank::db_query(stmt);
