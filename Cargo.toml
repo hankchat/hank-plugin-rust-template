@@ -6,6 +6,9 @@ edition = "2021"
 [lib]
 crate-type = ["cdylib"]
 
+[package.metadata.release]
+pre-release-commit-message = "Release {{crate_name}} version {{version}}"
+
 [dependencies]
 extism-pdk = "1.2.1"
 hank-pdk = "0.1.0"
