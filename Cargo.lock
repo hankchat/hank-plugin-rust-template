@@ -118,9 +118,9 @@ dependencies = [
 
 [[package]]
 name = "hank-pdk"
-version = "0.1.6"
+version = "0.1.15"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "791ec131ead27b836cec0e2d82c93af8e53f507aa4480667060b95e496344802"
+checksum = "73ad4cccc0b7e5a234203cc1c5652f571d723c4885e0dbc81af16cfa02868b6a"
 dependencies = [
  "extism-pdk",
  "hank-types",
@@ -138,9 +138,9 @@ dependencies = [
 
 [[package]]
 name = "hank-types"
-version = "0.1.7"
+version = "0.1.14"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2c24ba65f7f310ec9b3fa3b1f96499c6cfb565fb534ab4384ce2fcdc7ec33444"
+checksum = "743a19b8a78b95b4886ae1184430d94c486910572b82e3b7d7ab4717170a2e7a"
 dependencies = [
  "prost",
  "serde",
