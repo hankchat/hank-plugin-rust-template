@@ -132,7 +132,7 @@ dependencies = [
 
 [[package]]
 name = "hank-plugin-rust-template"
-version = "0.1.4"
+version = "0.1.5"
 dependencies = [
  "extism-pdk",
  "hank-pdk",
