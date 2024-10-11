@@ -22,7 +22,7 @@ pub fn plugin() -> FnResult<()> {
 
     hank.register_install_handler(my_install);
     hank.register_initialize_handler(my_initialize);
-    hank.register_message_handler(my_handle_message);
+    hank.register_chat_message_handler(my_handle_message);
     hank.register_chat_command_handler(my_handle_command);
 
     hank.start()
